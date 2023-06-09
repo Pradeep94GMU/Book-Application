@@ -4,7 +4,6 @@
     <style>
       body {
         width: 200px;
-        height: 120;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 10px;
@@ -37,7 +36,12 @@
     <h2>Job Applied</h2>
     <h1 id="counterDisplay">0</h1>
     <button id="incrementButton" class="button">Add</button>
+    <button id="undoButton" class="button">Undo</button>
     <button id="resetButton" class="button">Reset</button>
+
+    <input type="text" id="companyInput" placeholder="Company Name" />
+    <button id="saveCompanyButton" class="button">Save Company</button>
+    <ul id="companyList"></ul>
 
     <script src="popup.js"></script>
   </body>
