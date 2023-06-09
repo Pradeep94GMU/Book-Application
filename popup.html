@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 200px;
+        height: 120;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 10px;
+        background-color: #F7F8FA;
+      }
+
+      #counterDisplay {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .button {
+        padding: 10px;
+        font-size: 9px;
+        margin: 5px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+    <script src="background.js"></script>
+  </head>
+  <body>
+    <h2>Job Applied</h2>
+    <h1 id="counterDisplay">0</h1>
+    <button id="incrementButton" class="button">Add</button>
+    <button id="resetButton" class="button">Reset</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
